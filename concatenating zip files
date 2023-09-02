@@ -1,1 +1,5 @@
+# zcat zcat is a command that can concatenate zipped files
+# chr*.fa.gz = any file inside the current directory that starts with chr and ends with .fa.gz
+# sort is a command that sorts the file
+# -n is the sort parameter that sorts in numerical order
 zcat chr*.fa.gz > hg38.fa | sort -n hg38.fa
